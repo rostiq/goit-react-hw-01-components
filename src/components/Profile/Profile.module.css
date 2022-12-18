@@ -1,0 +1,86 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+    box-shadow: 1rem 1rem 1rem rgba(128, 128, 128, 0.2);
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    margin: 0.5rem;
+}
+
+.tag, 
+.location{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.8);
+}
+
+ul{
+
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+
+.stats {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.1);
+    border-top: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.stats > li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgba(128, 128, 128, 0.5);
+    width: 8rem;
+}
+
+li:last-child {
+    border-right: none;
+  }
+
+.label, .quantity {
+    color: rgba(128, 128, 128, 0.9);
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.quantity {
+    color: inherit;
+}
+
+
+
+
+
+
+
+
